@@ -9,6 +9,8 @@
 </head>
 
 <body>
+     <div id="user-bar"></div>
+
   <header>
     <h1>Heroes &amp; Villains Classifieds</h1>
     <p class="tagline">Find your nemesis, sidekick or contract. Earn status. Have fun.</p>
@@ -31,7 +33,14 @@
     <section id="merc">
       <h2>Mercs for Hire</h2>
       <div id="merc-list"></div>
-    </section>
+  
+      <section id="leaderboards">
+    <h2>Top Heroes</h2>
+    <ul id="top-heroes-list"></ul>
+    <h2>Top Villains</h2>
+    <ul id="top-villains-list"></ul>
+  </section>
+</section>
     <section id="new-listing">
       <h2>Create a New Listing</h2>
       <p class="form-note">Add your own hero, villain or merc. Support counts will start at zero.</p>
@@ -65,5 +74,7 @@
   </footer>
   <!-- Load interactivity script after the page content -->
   <script src="script.js"></script>
+   <script src="extras.js"></script>
+
 </body>
 </html>
