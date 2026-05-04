@@ -1,0 +1,55 @@
+/* Custom styles for interactive elements */
+.form-note {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+#new-listing {
+  margin-top: 2rem;
+}
+
+#new-listing form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#new-listing input,
+#new-listing select,
+#new-listing textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+}
+
+#new-listing button {
+  background-color: var(--nav-bg);
+  color: var(--light-text);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#new-listing button:hover {
+  background-color: #444;
+}
+
+.support-btn {
+  background-color: var(--nav-bg);
+  color: var(--light-text);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.support-btn:hover {
+  background-color: #444;
+}
+
+.meta .rank {
+  font-weight: bold;
+  color: #c00;
+}
