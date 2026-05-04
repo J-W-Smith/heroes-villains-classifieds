@@ -1,0 +1,108 @@
+/*
+  Basic styles for the Heroes & Villains Classifieds site.
+  Inspired by the minimal aesthetic of classic classifieds like Craigslist.
+*/
+
+:root {
+  --primary-bg: #f7f7f7;
+  --header-bg: #1a1a1a;
+  --nav-bg: #333;
+  --light-text: #f7f7f7;
+  --body-text: #222;
+  --card-bg: #ffffff;
+  --card-border: #cccccc;
+  --meta-text: #555;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg);
+  color: var(--body-text);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--header-bg);
+  color: var(--light-text);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header .tagline {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #bbbbbb;
+}
+
+nav {
+  background-color: var(--nav-bg);
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: var(--light-text);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--card-border);
+  padding-bottom: 0.25rem;
+}
+
+.listing {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.listing h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.listing p {
+  margin: 0 0 0.5rem 0;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--meta-text);
+}
+
+footer {
+  background-color: var(--header-bg);
+  color: var(--light-text);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
